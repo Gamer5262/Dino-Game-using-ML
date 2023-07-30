@@ -7,6 +7,7 @@ from random import randrange, choice
 import os
 
 jump_model = joblib.load('JUMP_MODEL.pkl')
+print(jump_model)
 msg = ''
 
 def convert_frame_to_model(Canny_image):
